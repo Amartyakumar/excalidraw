@@ -16,7 +16,7 @@ export const actionChangeViewBackgroundColor: Action = {
         <ColorPicker
           type="canvasBackground"
           color={appState.viewBackgroundColor}
-          onChange={color => updateData(color)}
+          onChange={(color) => updateData(color)}
         />
       </div>
     );
